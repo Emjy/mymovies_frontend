@@ -47,7 +47,7 @@ function Home() {
   // useEffect d'initialisation
   useEffect(() => {
    
-    fetch('http://localhost:3000/movies')
+    fetch('https://mymovies-backend-self.vercel.app/movies')
       .then(response => response.json())
       .then(movies => {
 
