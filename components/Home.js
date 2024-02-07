@@ -47,7 +47,7 @@ function Home() {
   // useEffect d'initialisation
   useEffect(() => {
    
-    fetch('https://mymovies-backend-chi.vercel.app/movies')
+    fetch('https://mymovies-backend-lime.vercel.app/movies')
       .then(response => response.json())
       .then(movies => {
 
